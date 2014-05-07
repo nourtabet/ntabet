@@ -55,7 +55,7 @@
 		
 	<!-- Collections
 	================================================== -->
-        <div class="four columns omega folder view view-fifth">
+        <div class="four columns omega folder view view-fifth hover">
               <a href="http://nourtabetplays.com">
               <img src="collections/thumbnails/folder_thumbnail.jpg">
                    <div class="mask">
@@ -63,7 +63,7 @@
                    </div>
         </div>
                 
-        <div class="four columns alpha omega multinational view view-fifth">
+        <div class="four columns alpha omega multinational view view-fifth hover">
                <a href="multinational.html">
                <img src="collections/thumbnails/POst-geo_thumbnail.jpg">
                    <div class="mask">
@@ -71,63 +71,63 @@
                    </div>
         </div>
             
-        <div class="four columns alpha omega formstorming view view-fifth">
+        <div class="four columns alpha omega formstorming view view-fifth hover">
                <a href="formstorming.html"><img src="collections/thumbnails/mapping_thumbnail.jpg">                   
                	<div class="mask">
                        <h2>FORMSTORMING</br>MARKS</br>+</h2></a>
                   </div>
         </div>
             
-        <div class="four columns alpha omega icons view view-fifth">
+        <div class="four columns alpha omega icons view view-fifth hover">
                <a href="icons.html"><img src="collections/thumbnails/icons_thumbnail.jpg">                   
                	 <div class="mask">
                        <h2>PERSONAL</br>ICONS</br>+</h2></a>
                    </div>
         </div>
             
-        <div class="four columns  omega globalroom view view-fifth">
+        <div class="four columns  omega globalroom view view-fifth hover">
                <a href="global_room.html"><img src="collections/thumbnails/globalroom_thumbnail.jpg"> 
                	 <div class="mask">
                        <h2>GLOBAL</br>ROOM</br>+</h2></a>
                    </div></a>
         </div>
                 
-        <div class="four columns alpha omega exposure view view-fifth">
+        <div class="four columns alpha omega exposure view view-fifth hover">
                <a href="exposure.html"><img src="collections/thumbnails/exposure_thumbnail.jpg"> 
                	 <div class="mask">
                        <h2>EXPOSURE</br>+</h2></a>
                    </div></a>
         </div>
             
-        <div class="four columns alpha omega globalparty view view-fifth">
+        <div class="four columns alpha omega globalparty view view-fifth hover">
                <a href="global_party.html"><img src="collections/thumbnails/globalparty_thumbnail.jpg"> 
                	 <div class="mask">
                        <h2>GLOBAL</br>PARTY</br>+</h2></a>
                    </div></a>
         </div>
             
-        <div class="four columns alpha omega metaphor view view-fifth">
+        <div class="four columns alpha omega metaphor view view-fifth hover">
                <a href="metaphor"><img src="collections/thumbnails/plugs_thumbnail.jpg"> 
                	 <div class="mask">
                        <h2>FABRICATING</br>PLUGS</br>+</h2></a>
                    </div></a>
         </div>
         
-        <div class="four columns  omega wearable view view-fifth">
+        <div class="four columns  omega wearable view view-fifth hover">
                <a href="wearable.html"><img src="collections/thumbnails/wearable_thumbnail.jpg">
                	 <div class="mask">
                        <h2>WEARABLE</br>ICONS</br>+</h2></a>
                    </div></a></a>
         </div>
                 
-        <div class="four columns alpha omega plugs_exploration view view-fifth">
+        <div class="four columns alpha omega plugs_exploration view view-fifth hover">
                <a href="plugs_exploration.html"><img src="collections/thumbnails/plugs_exploration_thumbnail.jpg">
                	 <div class="mask">
                        <h2>METAPHORIC</br>PLUGS</br>+</h2></a>
                    </div></a></a>                  
         </div>        
         
-        <div class="four columns alpha omega thesispitch view view-fifth">
+        <div class="four columns alpha omega thesispitch view view-fifth hover">
                <a href="thesis_pitch.html"><img src="collections/thumbnails/thesis_pitch_thumbnail.jpg">
                	 <div class="mask">
                        <h2>THESIS</br>PITCH</br>+</h2></a>
@@ -156,5 +156,14 @@
 <!-- End Document
 ================================================== -->
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+ <script>
+ $(document).ready(function() {
+    $('.hover').bind('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
+</script>
+ 
 </body>
 </html>

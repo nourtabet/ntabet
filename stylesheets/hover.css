@@ -21,7 +21,7 @@
    transition: all 0.3s ease-in-out;
 }
 
-.view-fifth:hover .mask {
+.view-fifth:hover .mask,.view-fifth .mask .hover_effect {
    -webkit-transform: translateX(0px);
    -moz-transform: translateX(0px);
    -o-transform: translateX(0px);
@@ -29,7 +29,7 @@
    transform: translateX(0px);
 }
 
-.view-fifth:hover img {
+.view-fifth:hover img, .view-fifth.hover_effect img  {
    -webkit-transform: translateX(300px);
    -moz-transform: translateX(300px);
    -o-transform: translateX(300px);
@@ -56,4 +56,9 @@
     position: relative;
     padding: 10px;
 	
+}
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
 }
