@@ -96,16 +96,15 @@ polikin.ca
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
         #gdmfa {display: none;}
-		 
-		 
+	.nav {margin-bottom:50px;}	 
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
         .container .two.columns                     { width: 76px; }
         .container .three.columns                   { width: 124px; }
-        .container .four.columns                    { width: 250px; }
+    .container .four.columns                    { width: 250px; }
         .container .five.columns                    { width: 220px; }
-        .container .six.columns                     { width: 430px; }
+    .container .six.columns                     { width: 430px; }
         .container .seven.columns                   { width: 316px; }
         .container .eight.columns                   { width: 364px; }
         .container .nine.columns                    { width: 412px; }
