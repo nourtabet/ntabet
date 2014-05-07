@@ -97,17 +97,16 @@ polikin.ca
     @media only screen and (min-width: 768px) and (max-width: 959px) {
     #gdmfa {display: none;}
 	.nav {margin-bottom:50px;}	 
-	.container img                                { width: 100%; overflow:hidden;}
+	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 170px; } 
  /* Nested Column Classes */
- 	.column.alpha, .columns.alpha               { margin-left: 0; }
-    .column.omega, .columns.omega               { margin-right: 0; }
+ 	
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
         .container .two.columns                     { width: 76px; }
         .container .three.columns                   { width: 124px; }
-    .container .four.columns                    { width: 250px; }
+    .container .four.columns                    { width: 250px; margin:0px;}
         .container .five.columns                    { width: 220px; }
     .container .six.columns                     { width: 430px; }
         .container .seven.columns                   { width: 316px; }
