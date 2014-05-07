@@ -1,0 +1,301 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+	
+	
+/* Colors
+==================================================	
+	blue:rgba(28,0,227,1.00);
+	green:rgba(93,242,190,1.00);
+	red:rgba(216,19,156,1.00);
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/** @font-face import **/
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-light.eot');
+  src: url('../type/cal-light.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-light.woff') format('woff'),
+       url('../type/cal-light.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  }
+    
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-regular.eot');
+  src: url('../type/cal-regular.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-regular.woff') format('woff'),
+       url('../type/cal-regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-medium.eot');
+  src: url('../type/cal-medium.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-medium.woff') format('woff'),
+       url('../type/cal-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-semibold.eot');
+  src: url('../type/cal-semibold.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-semibold.woff') format('woff'),
+       url('../type/cal-semibold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-lightitalic.eot');
+  src: url('../type/cal-lightitalic.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-lightitalic.woff') format('woff'),
+       url('../type/cal-lightitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-regularitalic.eot');
+  src: url('../type/cal-regularitalic.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-regularitalic.woff') format('woff'),
+       url('../type/cal-regularitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-mediumitalic.eot');
+  src: url('../type/cal-mediumitalic.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-mediumitalic.woff') format('woff'),
+       url('../type/cal-mediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url('../type/cal-semibolditalic.eot');
+  src: url('../type/cal-semibolditalic.eot?#iefix') format('embedded-opentype'),
+       url('../type/cal-semibolditalic.woff') format('woff'),
+       url('../type/cal-semibolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  }
+
+	
+
+/* #Links
+================================================== */
+	a, a:visited {text-decoration: none; outline: 0; }
+	a:hover, a:focus { color: rgba(93,242,190,1.00); }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+		
+/* #Basic Styles
+================================================== */
+	body {
+		font-family: Calibre, "Trebuchet MS", sans-serif;
+  		line-height: 1.2em;
+  		font-weight: 500;
+ 		font-size: 16px;
+		color: rgba(28,0,227,1.00);
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+/** Top bar linking back to all theses **/
+/*
+#gdmfa { 
+  width:100%;
+  background-color: #eee; * Background color of the bar. You can change this. *
+  z-index: 500;
+  }
+
+#gdmfa p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  * Typeface. You can change this. *
+    color: #000;  * Text color. You can change this *
+    font-size: 12px;  
+    font-weight: 700;
+    line-height: 24px; ; 
+    padding: 6px 12px;
+    margin: 0;
+    text-align: left;
+    }
+    
+#gdmfa p a { text-decoration:underline; }  * Makes the link underlined. Change it to "none" if you don't want that. *
+#gdmfa p a:hover { color: #0088FF; }  * Link color when the user mouses over it. You can change this. *
+#gdmfa p a:focus, #gdmfa p a:active { color: #0026FF; }  * Link color when the user clicks on it. You can change this. *
+#gdmfa p a:visited { color: #000; }  * Link color when it's been clicked before. You can change this.  *
+*/
+/* #Typography
+================================================== */
+	h1,h2 { 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold; 
+	font-size: 25px; 
+	line-height: 40px;
+	letter-spacing:1px;
+	}
+	h1 {color: rgba(28,0,227,1.00);}
+	h2 {color: rgba(93,242,190,1.00);}	
+	
+	h1 a, h2 a { font-weight: inherit;
+	border: none;
+	outline:none;
+	text-decoration:none;}
+
+	p { }
+	a {color:rgba(28,0,227,1.00);}
+	em { }
+	strong { font-weight: bold;}
+	small { font-size: 80%;}
+	footer {font-size:12px; }
+	footer a {color: rgba(28,0,227,1.00); text-decoration:none;}
+	
+/* Navigation
+================================================== */
+.logo {
+	overflow:hidden;
+	}
+.logo img {width:100%}
+.nav {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold; 
+	font-size: 15px; 
+	line-height: 24px;
+	letter-spacing:1px;margin-top:20px;
+	margin-bottom:100px;
+	font-family:
+}
+
+/* Collections
+================================================== */
+.folder {
+	background-color:rgba(28,0,227,1.00);
+	height: 190px;
+		overflow:hidden;
+}
+
+.multinational {
+	background-color:rgba(93,242,190,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+.formstorming{
+	height:190px;
+	background-color:rgba(28,0,227,1.00);
+	overflow:hidden;
+}
+
+.icons{
+	background-color:rgba(93,242,190,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+.globalroom{
+	background-color:rgba(93,242,190,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+.exposure{
+	height:190px;
+	background-color:rgba(216,19,156,1.00);
+	overflow:hidden;
+	}
+
+.globalparty{
+	background-color:rgba(28,0,227,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+.metaphor {
+	background-color:rgba(93,242,190,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+.wearable {
+	height:190px;
+	background-color:rgba(216,19,156,1.00);
+	overflow:hidden;
+}
+
+.thesispitch {
+	background-color:rgba(28,0,227,1.00);
+	height: 190px;
+	overflow:hidden;
+}
+
+footer {
+	margin-top:60px;
+	height: 150px;
+	background-color: rgba(93,242,190,1.00);
+	width: 100%;
+	padding-top:20px;
+}
+
