@@ -188,6 +188,7 @@ polikin.ca
     }
 
 
+
 /*  #Mobile (Portrait)
 ================================================== */
 
@@ -198,18 +199,18 @@ polikin.ca
 	.logo {margin-bottom:20px;margin-top:30px;}	 
 	.nav { margin-bottom:20px;line-height: 21px;}
 	.container img { width: 100%; overflow:hidden;}
-	.view	{height: 210px; } 
+	.view	{height: 126px; }
+	h2 {font-size:16px; line-height:27px;} 
 	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
  
-	     .container { width: 300px; }
+	     .container { width: 360px; }
         .container .columns,
         .container .column { margin: 0; }
-
+.container .four.columns { width: 180px; }
         .container .one.column,
         .container .one.columns,
         .container .two.columns,
         .container .three.columns,
-        .container .four.columns,
         .container .five.columns,
         .container .six.columns,
         .container .seven.columns,
@@ -223,7 +224,7 @@ polikin.ca
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 300px; }
+        .container .two-thirds.column  { width: 360px; }
 
         /* Offsets */
         .container .offset-by-one,
@@ -251,15 +252,22 @@ polikin.ca
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
+    #gdmfa {display: none;}
+	.logo {margin-bottom:20px;margin-top:30px;}	 
+	.nav { margin-bottom:20px;line-height: 21px;}
+	.container img { width: 100%; overflow:hidden;}
+	.view	{height: 168px; } 
+	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
+ 
+ 
+        .container { width: 480px; }
         .container .columns,
         .container .column { margin: 0; }
-
+ .container .four.columns { width: 240px; }
         .container .one.column,
         .container .one.columns,
         .container .two.columns,
         .container .three.columns,
-        .container .four.columns,
         .container .five.columns,
         .container .six.columns,
         .container .seven.columns,
@@ -273,7 +281,7 @@ polikin.ca
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column { width: 420px; }
+        .container .two-thirds.column { width: 480px; }
     }
 
 
