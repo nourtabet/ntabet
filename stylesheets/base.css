@@ -294,17 +294,17 @@
 	overflow:hidden;
 }
 
-.thesispitch {
-	background-color:rgba(28,0,227,1.00);
-	height: 190px;
-	overflow:hidden;
-}
-
 .plugs_exploration{
 	background-color:rgba(93,242,190,1.00);
 	height: 190px;
 	overflow:hidden;
 } 
+
+.thesispitch {
+	background-color:rgba(28,0,227,1.00);
+	height: 190px;
+	overflow:hidden;
+}
 
 footer {
   	line-height: 1.2em;
@@ -312,7 +312,6 @@ footer {
 	letter-spacing:1px;
 	color:rgba(168,168,168,1.00);
 	font-size:13px;
-	margin-top:60px;
 	height: 25px;
 	background-color:rgba(66,65,65,0.90);
 	width: 100%;

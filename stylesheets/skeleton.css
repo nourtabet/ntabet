@@ -85,7 +85,6 @@ polikin.ca
     .container .offset-by-thirteen              { padding-left: 975px; }
     .container .offset-by-fourteen              { padding-left: 1050px; }
     .container .offset-by-fifteen               { padding-left: 1125px; }
-	.responsive {display:none;}
 
 
 
@@ -99,8 +98,6 @@ polikin.ca
 	.nav {margin-bottom:50px;}	 
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 170px; } 
- 	.responsive {display:block;}
-	.desktop {display:none;}
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
@@ -145,13 +142,17 @@ polikin.ca
 	================================================== */
 
 	@media only screen and (min-width: 960px) and (max-width: 1199px) {
+ 	.nav {margin-bottom:70px;}	 
+	.container img { width: 100%; overflow:hidden;}
+	footer {position:fixed; bottom: 0;}
+ 
         /* Base Grid */
 		.container                                  { width: 960px; }
 	    .container .one.column,
 	    .container .one.columns                     { width: 40px;  }
 	    .container .two.columns                     { width: 100px; }
 	    .container .three.columns                   { width: 160px; }
-	    .container .four.columns                    { width: 220px; }
+.container .four.columns                    { width: 300px; margin:0px;}
 	    .container .five.columns                    { width: 280px; }
 	    .container .six.columns                     { width: 340px; }
 	    .container .seven.columns                   { width: 400px; }
@@ -193,7 +194,13 @@ polikin.ca
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
-        .container { width: 300px; }
+   #gdmfa {display: none;}
+	.nav {margin-bottom:30px;margin-top:10px;}	 
+	.container img { width: 100%; overflow:hidden;}
+	.view	{height: 210px; } 
+	footer {background-color:none; position: fixed; bottom: 0;}
+ 
+	     .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
 
