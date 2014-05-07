@@ -95,8 +95,10 @@ polikin.ca
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        #gdmfa {display: none;}
+    #gdmfa {display: none;}
 	.nav {margin-bottom:50px;}	 
+	.container img                                { width: 100%; overflow:hidden;}
+	.view	{height: 170px ; margin-left:0;} 
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
