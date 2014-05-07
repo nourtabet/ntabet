@@ -201,7 +201,7 @@ polikin.ca
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 100px; }
 	h2 {font-size:16px; line-height:27px;} 
-	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
+	footer {background-color:white; position: relative; padding-bottom: 20px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
  
 	     .container { width: 300px; }
         .container .columns,
@@ -257,7 +257,7 @@ polikin.ca
 	.nav { margin-bottom:20px;line-height: 21px;}
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 168px; } 
-	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
+	footer {background-color:white; position: relative; padding-bottom: 20px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
  
  
         .container { width: 480px; }
