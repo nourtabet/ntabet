@@ -141,7 +141,7 @@
 /* #Links
 ================================================== */
 	a, a:visited {text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: rgba(93,242,190,1.00); }
+	a:hover, a:focus {  }
 	p a, p a:visited { line-height: inherit; }
 
 
@@ -157,7 +157,7 @@
 	body {
 		font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
-  		font-weight: 500;
+  		font-weight: 300;
  		font-size: 16px;
 		color: rgba(28,0,227,1.00);
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -206,7 +206,7 @@
 	text-decoration:none;}
 
 	p { }
-	a {color:rgba(28,0,227,1.00);}
+	a {}
 	em { }
 	strong { font-weight: bold;}
 	small { font-size: 80%;}
@@ -221,14 +221,18 @@
 .logo img {width:100%}
 .nav {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: bold; 
-	font-size: 15px; 
-	line-height: 24px;
-	letter-spacing:1px;margin-top:20px;
+	font-weight: 700; 
+	font-size: 13px; 
+	line-height: 18px;
+	letter-spacing:1px;
+	margin-top:30px;
 	margin-bottom:100px;
-	font-family:
 }
 
+.nav a {color:rgba(171,171,171,1.00);
+}
+
+.nav a:hover {color:black;}
 /* Collections
 ================================================== */
 .folder {
@@ -268,7 +272,7 @@
 	}
 
 .globalparty{
-	background-color:rgba(28,0,227,1.00);
+	background-color:rgba(93,242,190,1.00);
 	height: 190px;
 	overflow:hidden;
 }
@@ -291,7 +295,14 @@
 	overflow:hidden;
 }
 
+.plugs_exploration{
+	background-color:rgba(93,242,190,1.00);
+	height: 190px;
+	overflow:hidden;
+} 
+
 footer {
+	font-size:13px;
 	margin-top:60px;
 	height: 150px;
 	background-color: rgba(93,242,190,1.00);
@@ -299,3 +310,4 @@ footer {
 	padding-top:20px;
 }
 
+footer a:hover, footer a:focus {text-decoration:underline;  }
