@@ -99,7 +99,6 @@ polikin.ca
 	.nav {margin-bottom:50px;}	 
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 170px; } 
- /* Nested Column Classes */
  	
 		 .container                                  { width: 768px; }
         .container .one.column,
