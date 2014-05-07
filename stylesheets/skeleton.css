@@ -85,7 +85,7 @@ polikin.ca
     .container .offset-by-thirteen              { padding-left: 975px; }
     .container .offset-by-fourteen              { padding-left: 1050px; }
     .container .offset-by-fifteen               { padding-left: 1125px; }
-
+	.responsive {display:none;}
 
 
 
@@ -99,7 +99,8 @@ polikin.ca
 	.nav {margin-bottom:50px;}	 
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 170px; } 
- 	
+ 	.responsive {display:block;}
+	.desktop {display:none;}
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
