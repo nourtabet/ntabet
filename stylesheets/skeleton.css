@@ -195,10 +195,11 @@ polikin.ca
 
     @media only screen and (max-width: 767px) {
    #gdmfa {display: none;}
-	.nav {margin-bottom:30px;margin-top:10px;}	 
+	.logo {margin-bottom:20px;margin-top:30px;}	 
+	.nav { margin-bottom:20px;line-height: 21px;}
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 210px; } 
-	footer {background-color:none; position: fixed; bottom: 0;}
+	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
  
 	     .container { width: 300px; }
         .container .columns,
