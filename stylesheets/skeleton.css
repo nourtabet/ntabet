@@ -95,14 +95,17 @@ polikin.ca
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
+        #gdmfa {display: none;}
+		 
+		 
+		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }
         .container .two.columns                     { width: 76px; }
         .container .three.columns                   { width: 124px; }
-        .container .four.columns                    { width: 172px; }
+        .container .four.columns                    { width: 280px; }
         .container .five.columns                    { width: 220px; }
-        .container .six.columns                     { width: 268px; }
+        .container .six.columns                     { width: 430px; }
         .container .seven.columns                   { width: 316px; }
         .container .eight.columns                   { width: 364px; }
         .container .nine.columns                    { width: 412px; }
