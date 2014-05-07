@@ -199,14 +199,14 @@ polikin.ca
 	.logo {margin-bottom:20px;margin-top:30px;}	 
 	.nav { margin-bottom:20px;line-height: 21px;}
 	.container img { width: 100%; overflow:hidden;}
-	.view	{height: 126px; }
+	.view	{height: 110px; }
 	h2 {font-size:16px; line-height:27px;} 
 	footer {background-color:white; position: relative; padding-bottom: 15px;top:20px; border-top: 2px solid rgba(168,168,168,1.00); text-align:center;font-size:15px;}
  
-	     .container { width: 360px; }
+	     .container { width: 320px; }
         .container .columns,
         .container .column { margin: 0; }
-.container .four.columns { width: 180px; }
+.container .four.columns { width: 160px; }
         .container .one.column,
         .container .one.columns,
         .container .two.columns,
@@ -224,7 +224,7 @@ polikin.ca
         .container .fifteen.columns,
         .container .sixteen.columns,
         .container .one-third.column,
-        .container .two-thirds.column  { width: 360px; }
+        .container .two-thirds.column  { width: 320px; }
 
         /* Offsets */
         .container .offset-by-one,
