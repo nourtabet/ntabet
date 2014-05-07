@@ -196,7 +196,7 @@ polikin.ca
 
     @media only screen and (max-width: 767px) {
    #gdmfa {display: none;}
-	.logo {margin-bottom:20px;margin-top:30px;}	 
+	.logo {margin-bottom:20px;margin-top:30px;width:90%;}	
 	.nav { margin-bottom:20px;line-height: 21px;}
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 110px; }
@@ -212,7 +212,6 @@ polikin.ca
         .container .two.columns,
         .container .three.columns,
         .container .five.columns,
-        .container .six.columns,
         .container .seven.columns,
         .container .eight.columns,
         .container .nine.columns,
