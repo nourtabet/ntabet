@@ -208,6 +208,12 @@
 	
 	h4 {color:rgba(216,19,156,1.00);}
 
+	h5 {font-family: Calibre, "Trebuchet MS", sans-serif;
+  		line-height: 1.2em;
+  		font-weight: 100;
+ 		font-size: 16px;
+		color: rgba(28,0,227,1.00);}
+		
 	p {font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
   		font-weight: 300;
