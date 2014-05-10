@@ -203,8 +203,10 @@
 	border: none;
 	outline:none;
 	text-decoration:none;}
+	
+	h3 {color:black;}
 
-	p {	font-family: Calibre, "Trebuchet MS", sans-serif;
+	p {font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
   		font-weight: 300;
  		font-size: 16px;
@@ -212,7 +214,7 @@
 		}
 		
 	a {}
-	em { }
+	em {  font-style: italic;}
 	strong { font-weight: bold;}
 	small { font-size: 80%;}
 	footer {font-size:12px; }
@@ -316,8 +318,11 @@ footer {
 	background-color:rgba(66,65,65,0.90);
 	width: 100%;
 	padding-top:10px;
-	position: absolute;
+	position: relative;
 	bottom:0;
 }
 
 footer a,footer a:hover, footer a:focus {color:rgba(168,168,168,1.00);}
+
+
+#slides img {}

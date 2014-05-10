@@ -98,6 +98,7 @@ polikin.ca
 	.nav {margin-bottom:50px;}	 
 	.container img { width: 100%; overflow:hidden;}
 	.view	{height: 170px; } 
+	h2 {font-size:22px; line-height:28px;} 
 		 .container                                  { width: 768px; }
         .container .one.column,
         .container .one.columns                     { width: 28px; }

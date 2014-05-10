@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>We are Postgeographic</title>
+	<title>Postgeographic Exhibition</title>
 	<meta name="description" content="Nour Tabet's Graphic Design MFA Thesis that explores a connected diaspora through exchange of data.">
 	<meta name="author" content="Nour Tabet">
 
@@ -22,7 +22,11 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/hover.css">
-	<!-- FONTS
+  <!-- CSS for slidesjs.com example -->
+  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+  <!-- End CSS for slidesjs.com example -->
+  
+  	<!-- FONTS
   ================================================== -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<!-- Favicons
@@ -31,8 +35,69 @@
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <style>
+    #slides {
+      display: none
+    }
 
-</head>
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: black;
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  </head>
+
+
+
 <body>
 
     <!-- Top bar linking back to all GDMFA -->
@@ -49,12 +114,45 @@
             </div>
             <div class="three columns offset-by-two">
                 <a href="about.html">ABOUT</a></br>
-                <a href="index.html"><h3>COLLECTIONS</h3></a>
-                <a href="exhibition.html">EXHIBTION</a></br>
+                <a href="index.html">COLLECTIONS</a></br>
+                <a href="exhibition.html"><h3>EXHIBTION</h3></a>
                 <a href="essay.html">ESSAY</a> </br></br> 
        		 </div>            	
     </div>
 		
+	<!-- Essay
+	================================================== -->
+	<div class="sixteen columns">
+    	<div class="five columns">
+        	<h2>THE SHOW EXHIBITS AND EXPANDS ON FOUR TYPES OF COLLECTIONS: PHOTOGRAPHIC, METAPHORIC, ACOUSTIC AND PHYSICAL.</br></br>
+        	</h2>
+             <p>
+  I printed the Global Room in parts, that is made out of
+surroundings, ceilings and floors. Each print out is underlined by a shelf that carries a collection.
+The first shelf carries a collection of jars of sand. I asked few friends of mine to gather a soil sample of where they reside and send it to me. The second shelf displays five plugs that are abstracted by 3D printing at 200%. The third one holds an iPad that displays an interactive website of the global party. </br></br>
+
+<em>This project was installed with the help of the Lebanese community of Baltimore City.</em></br></br></br></br>
+             </p>
+        </div>
+    	<div class="ten columns">
+            <div id="slides">
+              <img src="img/exhibition/exhibition1.jpg">
+              <img src="img/exhibition/exhibition2.jpg">
+              <img src="img/exhibition/exhibition3.jpg">
+              <img src="img/exhibition/exhibition4.jpg">
+              <img src="img/exhibition/exhibition5.jpg">
+              <img src="img/exhibition/exhibition6.jpg">
+              <img src="img/exhibition/exhibition7.jpg">
+              <img src="img/exhibition/exhibition8.jpg">
+              <img src="img/exhibition/exhibition9.jpg">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><p><strong>previous</strong></p></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><p><strong>next</strong></p></a>
+      		 </div>
+ 
+        </div>
+    
+    </div>
+
 	<!-- Collections
 	================================================== -->
         <div class="four columns omega folder view view-fifth hover">
@@ -158,7 +256,24 @@
 <!-- End Document
 ================================================== -->
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+   <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
 
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false
+      });
+    });
+  </script>
  
 </body>
 </html>
