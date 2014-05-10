@@ -4,40 +4,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <style>
-p {
-  color:black;
-  font-size:72px;
-}
-
-
-
-p:hover, p.hover_effect {
-  color:red;
-}
-
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;        
+a:hover { 
+    background-color: red;
 }
 
 </style>
 
 </head>
 
+<body ontouchstart="">
 
-<body>
-<p class="hover">This is a test Text for hover</p>
+<a href="#">Click me</a>
+
+
+
 </body>
 
-<script>
-$(document).ready(function() {
-    $('.hover').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
-
-</script>
 
 
 </html>
