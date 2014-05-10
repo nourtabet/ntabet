@@ -188,7 +188,7 @@
 
 /* #Typography
 ================================================== */
-	h1,h2 { 
+	h1,h2, h4 { 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold; 
 	font-size: 25px; 
@@ -204,7 +204,7 @@
 	outline:none;
 	text-decoration:none;}
 	
-	h3 {color:black;}
+	h3, h4 {color:black;}
 
 	p {font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
@@ -226,6 +226,7 @@
 	overflow:hidden;
 	}
 .logo img {width:100%}
+body img {width:100%}
 .nav {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700; 
