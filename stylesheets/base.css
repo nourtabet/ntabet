@@ -158,6 +158,8 @@
 		font-family: Calibre, "Trebuchet MS", sans-serif;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;   
  }
 
 /** Top bar linking back to all theses **/
