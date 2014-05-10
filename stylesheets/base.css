@@ -204,7 +204,9 @@
 	outline:none;
 	text-decoration:none;}
 	
-	h3, h4 {color:black;}
+	h3 {color:black;} 
+	
+	h4 {color:rgba(216,19,156,1.00);}
 
 	p {font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
