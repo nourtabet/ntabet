@@ -180,7 +180,7 @@
 	letter-spacing:1px;
     }
     
-#gdmfa p a { text-decoration:underline; }  /** Makes the link underlined. Change it to "none" if you don't want that. **/
+#gdmfa p a { text-decoration:underline;  color: rgba(168,168,168,1.00); }  /** Makes the link underlined. Change it to "none" if you don't want that. **/
 #gdmfa p a:hover { color: black; }  /** Link color when the user mouses over it. You can change this. **/
 #gdmfa p a:focus, #gdmfa p a:active { color: black; }  /** Link color when the user clicks on it. You can change this. **/
 #gdmfa p a:visited { color: black; }  /** Link color when it's been clicked before. You can change this.  **/
