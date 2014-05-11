@@ -159,7 +159,8 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		-webkit-user-select: none;
-		-webkit-touch-callout: none;   
+		-webkit-touch-callout: none;
+		height: 100%;   
  }
 
 /** Top bar linking back to all theses **/
@@ -318,7 +319,7 @@ body img {width:100%}
 	overflow:hidden;
 }
 
-footer {
+.footer, footer {
   	line-height: 1.2em;
   	font-weight: 700;	
 	letter-spacing:1px;
@@ -328,10 +329,25 @@ footer {
 	background-color:rgba(66,65,65,0.90);
 	width: 100%;
 	padding-top:10px;
-	position:relative;
-	margin-bottom:0px;
+
 }
 
+.footer a,.footer a:hover, .footer a:focus {color:rgba(168,168,168,1.00); text-decoration:underline;}
 footer a,footer a:hover, footer a:focus {color:rgba(168,168,168,1.00); text-decoration:underline;}
 
 
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto;
+}
+
+.push {height:2em;}
+.footer {
+height: 4em;
+}
+
+.footer, .push {
+clear: both;
+}
