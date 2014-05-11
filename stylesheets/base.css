@@ -331,6 +331,8 @@ body img {width:100%}
 
 }
 
+footer {height:25px;}
+
 .footer a,.footer a:hover, .footer a:focus {color:rgba(168,168,168,1.00); text-decoration:underline;}
 footer a,footer a:hover, footer a:focus {color:rgba(168,168,168,1.00); text-decoration:underline;}
 
