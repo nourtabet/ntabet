@@ -227,8 +227,6 @@
 	em {  font-style: italic;}
 	strong { font-weight: bold; letter-spacing:1px;}
 	small { font-size: 80%;}
-	footer {font-size:12px; }
-	footer a {color: rgba(28,0,227,1.00); text-decoration:none;}
 
 	
 /* Navigation
@@ -330,11 +328,10 @@ footer {
 	background-color:rgba(66,65,65,0.90);
 	width: 100%;
 	padding-top:10px;
-	position: relative;
+	position: absolute;
 	bottom:0;
 }
 
-footer a,footer a:hover, footer a:focus {color:rgba(168,168,168,1.00);}
+footer a,footer a:hover, footer a:focus {color:rgba(168,168,168,1.00); text-decoration:underline;}
 
 
-#slides img {}
