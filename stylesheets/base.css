@@ -158,7 +158,6 @@
 		font-family: Calibre, "Trebuchet MS", sans-serif;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
-		-webkit-user-select: none;
 		-webkit-touch-callout: none;
 		height: 100%;   
  }
@@ -210,7 +209,7 @@
 	h3 {color:black;} 
 	
 	h4 {color:rgba(216,19,156,1.00);}
-
+	
 	h5 {font-family: Calibre, "Trebuchet MS", sans-serif;
   		line-height: 1.2em;
   		font-weight: 100;
@@ -352,3 +351,9 @@ height: 4em;
 .footer, .push {
 clear: both;
 }
+
+::selection {color:white; background-color:rgba(28,0,227,1.00);}
+::-moz-selection   {color:white; background-color:rgba(28,0,227,1.00);}
+
+::selection h2 {color:white; background-color:rgba(93,242,190,1.00);}
+::-moz-selection h2 {color:white; background-color:rgba(93,242,190,1.00);}
